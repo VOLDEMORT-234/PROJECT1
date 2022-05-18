@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: rgb(255, 153, 153);
+  box-sizing: border-box;
+  margin: 0px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 0.5rem;
+  color: rgb(58, 53, 53);
+  text-transform: uppercase;
+  text-shadow: 2px 4px 4px grey;
+  padding-bottom: 0.5rem;
+  position: static;
+}
+.navigation {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  background-color: rgb(98, 98, 98);
+  margin: 0px;
+  padding: 5px;
+  color: aliceblue;
+  position: static;
+}
+.nd {
+  margin-left: 79rem;
+}
+/* flex direction ,flex wrap ,justify containt */
+/* objectfit */
+/* overflow hidden */
+/* flex-flow:flow wrap */
+/* align items(crossaxis) */
+/* Justify-content (main-axis) */
+#container {
+  background-image: url("../3Cnq18.webp");
+  background-position: center;
+  background-size: cover;
+  height: 20rem;
+  margin: 0px;
+}
+/* display grid  */
+/* grid templates column */
+/* grid templates row */
+/* grid templates area */
+/* @media(width){} */
+/* transition */
+/* ease-out time delay scale() SVG */
+button {
+  font: inherit;
+  /* used to inherit from parent elements */
+  cursor: grab;
+}
+input:focus {
+}
