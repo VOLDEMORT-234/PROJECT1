@@ -30,3 +30,6 @@
 // let another = document.querySelector("h1");
 // another.remove();
 // very important query selector
+
+// add event listner
+// ==,===,>=,<=
