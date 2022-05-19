@@ -145,9 +145,137 @@
 // }
 
 // do {
-  
+
 // } while (condition);
 
 // break and continue statment
 
-let
+// let arr = [
+//   "deepesh",
+//   true,
+//   1,
+//   function greet() {
+//     console.log("hey");
+//   },
+// ];
+
+// arr.pop(); //last element gone
+// arr.push(""); //last element add
+// arr.shift(); //first element gone
+// arr.unshift(""); //first element add
+// Array.toString() //convert whole array to string
+// Array.sort() //sort the array
+// ************************************************************************************************************************************
+// strings methods in java script
+// let ty = "deepesh agrawal";
+// console.log(ty.length);//gives length of string
+// console.log(ty.indexOf("agrawal")); //gives starting index of letter
+// console.log(ty.lastIndexOf("deepesh")); //gives starting index of letter
+
+// console.log(ty.slice(3, 6)); //pes output
+// d = ty.replace("deepesh", "Karan");//replace only first string
+// console.log(d); //old string will not change only copy is done
+// ************************************************************************************************************************************
+// let myDate = new Date();
+// console.log(myDate);
+// console.log(myDate.getTime());
+// console.log(myDate.getFullYear());
+// console.log(myDate.getDay());
+// ************************************************************************************************************************************
+// DOM //how to use document
+
+// document.getElementById("h1")[0].style.color = "red";
+//  document.getElementById("click").click();
+// document.getElementById("click").style.border = "2px solid blue";
+// let hey = document.getElementById("click");
+// // console.log(hey);
+// let bye = document.getElementsByClassName("header");
+// console.log(bye);
+// bye[0].style.background = "yellow";
+// bye[0].classList.add("vrt"); //add new class name
+// bye[0].classList.remove("vrt"); //remove new class name
+
+// ************************************************************************************************************************************
+
+// console.log(bye.innerHTML); //give html code under this
+// console.log(bye[0].innerHTML); //give text under this
+
+// let tn = document.getElementsByTagName("div");
+// console.log(tn);
+// let created = document.createElement("p");
+
+// tn[0].appendChild(created);
+
+// created.innerText = "HEY GUYS HELLO";
+
+// let createdf = document.createElement("p");
+
+// createdf.innerText = "HEY GUYS BYE";
+
+// tn[0].replaceChild(createdf, created);
+
+// document.location
+// Location {ancestorOrigins: DOMStringList, href: 'http://127.0.0.1:5500/project/', origin: 'http://127.0.0.1:5500', protocol: 'http:', host: '127.0.0.1:5500', …}
+// document.scripts
+// HTMLCollection(2) [script, script]
+// document.links
+// HTMLCollection []
+// document.URL
+// 'http://127.0.0.1:5500/project/'
+// document.images
+// let sel = document.querySelector(".container");
+// console.log(sel);
+// let se = document.querySelectorAll(".container");
+// ************************************************************************************************************************************
+// events in javascript
+
+// function click() {
+//   console.log("Button was clicked");
+// }
+
+// window.onload = function () {
+// console.log("hey");              //on loading
+// };
+
+// let tr = document.getElementById("ft");
+
+// tr.addEventListener("click", function () {
+//   document.querySelectorAll(".header")[0].innerHTML = "<b>we have chlicked</b>";
+//   console.log("click hua");
+// });
+
+// tr.addEventListener("mouseover", function () {
+//   console.log("click hua");
+// });
+
+// tr.addEventListener("mouseout", function () {
+//   console.log("click hua");
+// });
+
+// tr.addEventListener("mouseup", function () {
+//   console.log("click hua");
+// });
+
+// tr.addEventListener("mousedown", function () {
+//   console.log("click hua");
+// });
+// ************************************************************************************************************************************
+
+// set timeout set interval
+
+// arrow function
+
+// sum = (a, b) => {
+//   return a + b;
+// };
+// logkaro = () => {
+//   console.log("I am log");
+// };
+// // setTimeout(logkaro, 2000); //2s after we get i am log
+// setInterval(logkaro, 2000); //repeat afer every 2s
+
+// let clr = setInterval(logkaro, 2000);
+// clearInterval(clr);
+
+// local storage
+//use to save data in user computer
