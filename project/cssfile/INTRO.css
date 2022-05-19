@@ -56,3 +56,10 @@ button {
 }
 input:focus {
 }
+.tre {
+  background-color: rgb(188, 188, 255);
+}
+#click {
+  width: 20px;
+  height: 20px;
+}
