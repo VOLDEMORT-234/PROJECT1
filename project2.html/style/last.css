@@ -1,0 +1,62 @@
+#game__ {
+  text-align: center;
+  margin: 2rem 0 5rem 0;
+  /* display: none; */
+}
+#game__ ol {
+  list-style-type: none;
+}
+#won {
+  max-width: 40rem;
+  margin: auto;
+  width: 90%;
+  padding: 1rem 2rem;
+  background-color: rgb(50, 5, 87);
+  border-radius: 4px;
+  display: none;
+
+  color: white;
+}
+#won h3 {
+  font-size: 2rem;
+  margin: 0 0.5rem;
+}
+#active-player-name {
+  font-weight: bold;
+  color: rgb(50, 5, 87);
+}
+#game_board {
+  display: grid;
+  margin: 1rem 0;
+  padding: 0;
+  grid-template-columns: repeat(3, 6rem);
+  grid-template-rows: repeat(3, 6rem);
+  justify-content: center;
+  gap: 0.5rem;
+}
+#game_board li {
+  background-color: rgb(215, 187, 247);
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+#game_board li:hover {
+  background-color: rgb(112, 13, 204);
+  color: white;
+}
+#game_board .disabled {
+  background-color: rgb(112, 13, 204);
+  color: white;
+}
+.error input {
+  border-color: rgb(86, 0, 0);
+  color: rgb(136, 0, 0);
+  background-color: rgb(255, 175, 175);
+}
+.error label {
+  color: rgb(74, 0, 0);
+}

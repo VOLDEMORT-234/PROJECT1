@@ -35,7 +35,7 @@
 // add event listner
 // ==,===,>=,<=
 //document.queryselector(".class").click() (automatically get clicked)
-// document.getElementById("id name").click()
+//document.getElementById("id name").click()
 // ************************************************************************************************************************************
 // f1
 // <div id=​"f1" class=​"container">​…​</div>​
@@ -46,7 +46,6 @@
 // ************************************************************************************************************************************
 // select element
 // document.getElementById("h1")
-
 // null
 // document.getElementsByTagName("h1")
 // HTMLCollection(2) [h1, h1]
@@ -65,9 +64,9 @@
 // console.assert(4 == 5);
 // ************************************************************************************************************************************
 
-// javascript variable
+//  javascript variable
 
-// // contain store value
+// contain store value
 // var number = 34;
 // console.log(number);
 
@@ -83,29 +82,29 @@
 // console.log(a, b);
 
 // ************************************************************************************************************************************
-// var und = undefined;
-// var und; //then also undefined very important
-// console.log(und);
-// var und = null; //null is different
-// console.log(und);
+//var und = undefined;
+//var und; //then also undefined very important
+//console.log(und);
+//var und = null; 
+//null is different
+//console.log(und);
 
 // arrays in java script
 
-//* primitive data type: undefined,null,nummber,string,boolean,symbol*
+//*primitive data type: undefined,null,nummber,string,boolean,symbol*
 // *Refernce data type: Arrays and objects*
+
 // ************************************************************************************************************************************
 // var arr = [1, 2, 3, 4, 4];
-
 // console.log(arr);
 // console.log(arr[1]);
 // console.log(arr[2]);
 // console.log(arr[3]);
 // var arr = [1, 2, 3, 4, "bablu"];
-
 // console.log(arr[4]);
 // ************************************************************************************************************************************
 // Operators in java script
-// // console.log(3 * 90);
+// console.log(3 * 90);
 // console.log(4 < 3);
 // console.log(4 > 3);
 //&& || !
@@ -134,7 +133,7 @@
 // }
 
 // arr.forEach(function (element) {
-//   console.log(element); //very important syntax
+//   console.log(element);                  //very important syntax
 // });
 
 // let j = 0; //let should be used
@@ -174,7 +173,7 @@
 
 // console.log(ty.slice(3, 6)); //pes output
 // d = ty.replace("deepesh", "Karan");//replace only first string
-// console.log(d); //old string will not change only copy is done
+//  console.log(d); //old string will not change only copy is done
 // ************************************************************************************************************************************
 // let myDate = new Date();
 // console.log(myDate);
@@ -184,16 +183,16 @@
 // ************************************************************************************************************************************
 // DOM //how to use document
 
-// document.getElementById("h1")[0].style.color = "red";
-//  document.getElementById("click").click();
-// document.getElementById("click").style.border = "2px solid blue";
-// let hey = document.getElementById("click");
-// // console.log(hey);
-// let bye = document.getElementsByClassName("header");
-// console.log(bye);
-// bye[0].style.background = "yellow";
-// bye[0].classList.add("vrt"); //add new class name
-// bye[0].classList.remove("vrt"); //remove new class name
+  // document.getElementById("h1")[0].style.color = "red";
+  //  document.getElementById("click").click();
+  // document.getElementById("click").style.border = "2px solid blue";
+  // let hey = document.getElementById("click");
+  // // console.log(hey);
+  // let bye = document.getElementsByClassName("header");
+  // console.log(bye);
+  // bye[0].style.background = "yellow";
+  // bye[0].classList.add("vrt"); //add new class name
+  // bye[0].classList.remove("vrt"); //remove new class name
 
 // ************************************************************************************************************************************
 
@@ -230,7 +229,7 @@
 // events in javascript
 
 // function click() {
-//   console.log("Button was clicked");
+//   console.log("Button was clicked"); //onclick in html button
 // }
 
 // window.onload = function () {
@@ -240,7 +239,7 @@
 // let tr = document.getElementById("ft");
 
 // tr.addEventListener("click", function () {
-//   document.querySelectorAll(".header")[0].innerHTML = "<b>we have chlicked</b>";
+//   document.querySelectorAll(".header")[0].innerHTML = "<b>we have clicked</b>";
 //   console.log("click hua");
 // });
 
@@ -276,6 +275,27 @@
 
 // let clr = setInterval(logkaro, 2000);
 // clearInterval(clr);
-
 // local storage
 //use to save data in user computer
+// localStorage.setitem('deepesh',agrawal)
+//a kind of storage
+// ************************************************************************************************************************************
+// JSON
+// help to exchange data
+// obj = { name: "har\\ry", length: 1 };
+// jso = JSON.stringify(obj);
+// console.log(jso);
+// json standard require double quotes
+//  
+// console.log(parsded);
+//
+ https://youtu.be/hKB-YGF14SY?t=10447
+// let ar ;
+// let y1 ;
+// let time;
+// setInterval(() => {
+//   ar= new Date();
+//    y1=ar.toLocaleDateString();
+//    time= ar.getHours() + ":" + ar.getMinutes() + ":" + ar.getSeconds();
+//   let show = (document.getElementById("ft").innerHTML = y1 + " on " + time);
+// }, 1000);

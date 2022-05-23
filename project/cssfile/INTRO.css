@@ -61,3 +61,12 @@ input:focus {
 }
 #click {
 }
+div {
+  background-color: rgb(255, 232, 209);
+  height: 200px;
+  width: 1000px;
+  margin: auto auto;
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
