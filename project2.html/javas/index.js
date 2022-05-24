@@ -1,5 +1,13 @@
-let editplayer = 0;
+const gamedata = [
+  [0, 0, 0],
+  [0, 0, 0],
+  [0, 0, 0],
+];
 
+let editplayer = 0;
+let activeplayer = 0;
+let currentround = 1;
+let gameisover = false;
 const players = [
   {
     name: "",
@@ -38,3 +46,25 @@ cancelit2.addEventListener("click", canelitonce);
 formelement.addEventListener("submit", formsave);
 
 //submit is a built_in event listner
+const startgame = document.getElementById("startgame");
+
+startgame.addEventListener("click", gamey);
+
+const gameboard = document.getElementById("game__");
+const gamename = document.getElementById("active-player-name");
+
+const won = document.getElementById("won");
+
+// const gamefield = document.querySelectorAll("#game_board li");
+//select all fiting element
+//alterntive
+const gameelement = document.getElementById("game_board");
+
+// for (const gamefiel of gamefield) {
+//   //every singal items
+//   gamefiel.addEventListener("click", field);
+// }
+
+//alernative
+
+gameelement.addEventListener("click", field);

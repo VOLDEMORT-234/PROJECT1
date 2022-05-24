@@ -1,5 +1,5 @@
 function openplayerconfig(event) {
-  const editplayer = +event.target.dataset.playerid; //data added to your attribute //+ is used to store a number
+  editplayer = +event.target.dataset.playerid; //data added to your attribute //+ is used to store a number
   playerconfigoverlay.style.display = "block";
   backdropelement.style.display = "block";
 }
@@ -8,6 +8,7 @@ function canelitonce() {
   backdropelement.style.display = "none";
   formelement.firstElementChild.classList.remove("error");
   error.textContent = "";
+  formelement.firstElementChild.lastElementChild.value = "";
 }
 //important
 function formsave(event) {
@@ -26,12 +27,9 @@ function formsave(event) {
     "player-" + editplayer + "-data"
   );
 
-  if (editplayer == 1) {
-    player[0].name = enterplayer;
-  } else {
-    player[1].name = enterplayer;
-  }
+  updatedplayerdata.children[1].textContent = enterplayer;
 
+  players[editplayer - 1].name = enterplayer;
   canelitonce();
 }
 //https://www.udemy.com/course/100-days-of-code-web-development-bootcamp/learn/lecture/27173188#overview
