@@ -1,0 +1,10 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+img {
+  height: 100%;
+  margin-left: 20rem;
+  max-width: 40rem;
+}

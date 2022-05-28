@@ -1,5 +1,5 @@
 const gamedata = [
-  [0, 0, 0],
+  [0, 0, 0], //you can make two dimensional array
   [0, 0, 0],
   [0, 0, 0],
 ];
