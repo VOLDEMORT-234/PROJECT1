@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style/config.css" />
+    <link rel="stylesheet" href="style/index.css" />
+    <link rel="stylesheet" href="style/overlays.css" />
+    <link rel="stylesheet" href="style/last.css" />
+    <script src="javas/config.js" defer></script>
+    <!-- defer executed when all the content are over -->
+    <script src="javas/game.js" defer></script>
+    <script src="javas/index.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Macondo&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tic tac toe</title>
+  </head>
+  <body>
+    <div id="backdrop"></div>
+    <header class="header">
+      <h1>Tic Tac Toe</h1>
+      <p>By deepesh agrawal</p>
+    </header>
+    <main>
+      <aside class="aside1" id="config1">
+        <h2>Choose your name</h2>
+        <p>FAST <%=nof %></p>
+        <!-- <%%> used in ejs -->
+        <form action="/tictok" method="POST">
+          <div class="form-control">
+            <label for="playername">Player name</label>
+            <input type="text" name="playername" id="playername" required />
+          </div>
+          <p id="config3"></p>
+          <div>
+            <button type="reset" class="btn btn-alt" id="cancelconfig">
+              Cancel
+            </button>
+            <button type="submit" class="btn">Confirm</button>
+          </div>
+        </form>
+      </aside>
+      <section id="game_">
+        <ol>
+          <li>
+            <article id="player-1-data">
+              <h2>Player 1</h2>
+              <h3>player name</h3>
+              <p class="player_symbol">X</p>
+              <button class="btn-alt" id="edit-player1" data-playerid="1">
+                Edit
+              </button>
+            </article>
+            <!-- good tag article -->
+            <!-- data new attribute find -->
+          </li>
+          <li>
+            <article id="player-2-data">
+              <h2>Player 2</h2>
+              <h3>player name</h3>
+              <p class="player_symbol">O</p>
+              <button class="btn-alt" id="edit-player2" data-playerid="2">
+                Edit
+              </button>
+            </article>
+          </li>
+        </ol>
+        <button class="btn" id="startgame">Start new game</button>
+      </section>
+      <section id="game__">
+        <article id="won">
+          <h2>YOU WON ,<span id="winner-name">PLAYER NAME</span></h2>
+          <p>click, start new game to start new game</p>
+        </article>
+        <p>Its your turn <span id="active-player-name">PLAYER NAME</span></p>
+        <ol id="game_board">
+          <li data-row="1" data-col="1"></li>
+          <li data-row="1" data-col="2"></li>
+          <li data-row="1" data-col="3"></li>
+
+          <li data-row="2" data-col="1"></li>
+          <li data-row="2" data-col="2"></li>
+          <li data-row="2" data-col="3"></li>
+
+          <li data-row="3" data-col="1"></li>
+          <li data-row="3" data-col="2"></li>
+          <li data-row="3" data-col="3"></li>
+        </ol>
+      </section>
+    </main>
+    <!-- new attribute float:"left" very good attribute -->
+    <!-- main tag -->
+    <!-- section tag -->
+  </body>
+</html>

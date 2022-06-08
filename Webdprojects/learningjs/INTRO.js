@@ -17,14 +17,14 @@
 
 // console.log(16 + 7);
 
-// console.log("max" + "Deepesh");
-// console.log(4 ** 3);
-// console.log(2 + "2");
+//console.log("max" + "Deepesh");
+//console.log(4 ** 3);
+//console.log(2 + "2");
 
 // let name = "deepesh";
 // console.log(name.length);
 // DOM document object model
-// // console.log(window);
+// console.log(window);
 // console.log(window.document);
 // console.dir(document);
 // document.body.children[0]
@@ -64,7 +64,7 @@
 // console.assert(4 == 5);
 // ************************************************************************************************************************************
 
-//  javascript variable
+// javascript variable
 
 // contain store value
 // var number = 34;
@@ -85,7 +85,7 @@
 //var und = undefined;
 //var und; //then also undefined very important
 //console.log(und);
-//var und = null; 
+//var und = null;
 //null is different
 //console.log(und);
 
@@ -183,16 +183,16 @@
 // ************************************************************************************************************************************
 // DOM //how to use document
 
-  // document.getElementById("h1")[0].style.color = "red";
-  //  document.getElementById("click").click();
-  // document.getElementById("click").style.border = "2px solid blue";
-  // let hey = document.getElementById("click");
-  // // console.log(hey);
-  // let bye = document.getElementsByClassName("header");
-  // console.log(bye);
-  // bye[0].style.background = "yellow";
-  // bye[0].classList.add("vrt"); //add new class name
-  // bye[0].classList.remove("vrt"); //remove new class name
+// document.getElementById("h1")[0].style.color = "red";
+//  document.getElementById("click").click();
+// document.getElementById("click").style.border = "2px solid blue";
+// let hey = document.getElementById("click");
+// // console.log(hey);
+// let bye = document.getElementsByClassName("header");
+// console.log(bye);
+// bye[0].style.background = "yellow";
+// bye[0].classList.add("vrt"); //add new class name
+// bye[0].classList.remove("vrt"); //remove new class name
 
 // ************************************************************************************************************************************
 
@@ -270,7 +270,7 @@
 // logkaro = () => {
 //   console.log("I am log");
 // };
-// // setTimeout(logkaro, 2000); //2s after we get i am log
+// setTimeout(logkaro, 2000); //2s after we get i am log
 // setInterval(logkaro, 2000); //repeat afer every 2s
 
 // let clr = setInterval(logkaro, 2000);
@@ -286,10 +286,10 @@
 // jso = JSON.stringify(obj);
 // console.log(jso);
 // json standard require double quotes
-//  
+//
 // console.log(parsded);
 //
- https://youtu.be/hKB-YGF14SY?t=10447
+//  https://youtu.be/hKB-YGF14SY?t=10447
 // let ar ;
 // let y1 ;
 // let time;
