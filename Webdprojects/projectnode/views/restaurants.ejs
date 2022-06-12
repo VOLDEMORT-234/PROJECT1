@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%-include('includes/head') %>
+  </head>
+  <link rel="stylesheet" href="styles/restaurants.css" />
+  <body>
+    <%- include('includes/header') %> <%- include('includes/aside') %>
+    <main>
+      <h1>Recommended restaurants</h1>
+      <% if (numberofres===0) {%>
+      <p>WE DONT HAVE ANY RESTAURANTS ,PLEASE ENTER YOUR CHOICE....</p>
+
+      <%} else {%>
+      <p>Find your next favorite restaurants with help of our other users!</p>
+      <p>chup saale <%= numberofres %></p>
+      <form action="/restaurants" method="GET">
+        <!-- we don't have to post data  -->
+        <input type="hidden" value="<%=nextorder%>" name="order" />
+        <button class="btn">change order</button>
+      </form>
+
+      <ul id="restaurants-list">
+        <% for(const restaurant of restaurants) { %>
+        <%-include('includes/restaurant/resto',{restaurant:restaurant})%> <% }%>
+      </ul>
+      <%}%>
+    </main>
+  </body>
+</html>
