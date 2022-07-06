@@ -47,6 +47,8 @@ const App = () => {
       <Expenses items={expenses} />
     </div>
   );
+
+  // style
 };
 
 export default App;
