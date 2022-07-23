@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+  font-family: "Macondo", cursive;
+  background-color: rgb(234, 255, 234);
+}
+.header {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 1.2rem 5%;
+}
+.header h1 {
+  margin: 0px;
+  text-align: center;
+}
+.header p {
+  font-size: 10px;
+}
+.btn {
+  font: inherit;
+  /* buttons have a difeerent font family automatically */
+  padding: 0.5rem 1.5rem;
+  background-color: aquamarine;
+  border-radius: 4px;
+  cursor: grab;
+  border: none;
+}
+.btn-alt {
+  background-color: transparent;
+  border-color: transparent;
+  color: green;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: rgb(61, 250, 187);
+  border-color: rgb(61, 250, 187);
+}
+.btn-alt:hover {
+  background-color: rgb(61, 250, 187);
+  border-color: transparent;
+  cursor: grab;
+}
+    
